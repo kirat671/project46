@@ -97,6 +97,7 @@ if(things.isTouching(armyman)){
 
 if(keyWentDown("SPACE")){
 Bullet = createSprite(340,220, 90, 20);
+Bullet.addImage("MG",BulletImg)
 Bullet.velocityX = +4
 Bullet.y = armyman.y-2
 
